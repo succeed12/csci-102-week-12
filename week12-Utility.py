@@ -29,6 +29,15 @@ def FindWordCount(list_1, string):
     counted_string = stringed_list.count(string)
     print(f'OUTPUT {counted_string}')
 
+#Define Function 5
+def ScoreFinder(list_1, list_2, string):
+    index_of_string = list_1.index(string)
+    return index_of_string
+    if index_of_string == True:
+        print(f'OUTPUT {string} got a score of {list_2[index]}')
+    else:
+        print('OUTPUT player is not found')
+
 
 
 
