@@ -38,6 +38,17 @@ def ScoreFinder(list_1, list_2, string):
     else:
         print('OUTPUT player is not found')
 
+#Define Function 6
+def Union(list_1, list_2):
+    new_list = []
+    for i in list_1:
+        if i not in new_list:
+            new_list.append(i)
+    for j in list_2:
+        if j not in new_list:
+            new_list.append(j)
+    return new_list
+
 
 
 
