@@ -16,6 +16,13 @@ def LoadFile(string):
         line_list.append(line)
     print(f'OUTPUT {line_list}')
 
+#Define Function 3
+def UpdateString(string, replace_string, num):
+    listed_string = list(string)
+    listed_string[num] = replace_string
+    new_string = ''.join(listed_string)
+    print(f'OUTPUT {new_string}')
+
 
 
 
