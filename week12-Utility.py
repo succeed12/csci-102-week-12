@@ -23,6 +23,12 @@ def UpdateString(string, replace_string, num):
     new_string = ''.join(listed_string)
     print(f'OUTPUT {new_string}')
 
+#Define Function 4
+def FindWordCount(list_1, string):
+    stringed_list_1 = ''.join(list_1)
+    counted_string = stringed_list.count(string)
+    print(f'OUTPUT {counted_string}')
+
 
 
 
